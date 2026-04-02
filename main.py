@@ -8,4 +8,4 @@ def main():
 
 @app.post("v1/chat/completions")
 def chat_completions():
-
+    return {"message": "Chat Completions stub"}
